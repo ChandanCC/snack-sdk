@@ -846,7 +846,7 @@ export default class SnackSession {
 
   _handleJoinMessage = (device: ExpoDevice) => {
     this._handleDeviceConnect(device);
-    this._publishNotDebouncedAsync();
+//     this._publishNotDebouncedAsync();
     this._sendPresenceEvent(device, 'join');
   };
 
